@@ -29,8 +29,8 @@ img {
 }
 
 .hero{
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("/images/3426526.jpg");
-    /* background-position: center; */
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("/images/computer-with-glasses-3d-programming-code_124008-52.jpg");
+    background-position: center;
     background-size: cover;
     color: #fff;
     height: 100vh;
@@ -39,12 +39,12 @@ img {
 .hero .hero-content{
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-nav{
+nav, #courses{
     /* background-color: #2A454E; */
     padding: 16px 60px;
     margin-bottom: 4rem;
@@ -84,7 +84,7 @@ nav{
 }
 
 .hero-content p{
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 .hero button {
@@ -118,6 +118,85 @@ li a{
     
 }
 
-#features div{
+#features{
+    background-color: #4C00A4;
+    padding: 1rem 1.2rem;
+    width: 70%;
+    margin: -36px auto 70px;
+    border-radius: 50px;
+}
+
+.featuresBoxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.featuresBoxes div{
+    display: flex;
+    align-items: center;
+}
+
+.featuresBoxes div i{
+    padding: 7px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #4C00A4;
+    margin-right: 10px;
+}
+
+#courses h1{
     text-align: center;
+}
+
+.coursesBoxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+.course{
+    border: 1px solid #919191;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.course button{
+    all: unset;
+    background-color: #4C00A4;
+    width: 100%;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: .5rem 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.courseBenefits{
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #aaa;
+}
+
+.courseBenefits ul{
+    display: grid;
+    gap: 5px;
+}
+
+.courseBenefits ul li{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.courseBenefits ul li i{
+    padding: 3px;
+    border-radius: 50px;
+    background-color: #4C00A4;
+    color: #fff;
+    font-size: 10px;
 }
