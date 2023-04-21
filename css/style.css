@@ -86,7 +86,7 @@ nav, #courses{
     padding: 20px 0;
 }
 
-.hero button {
+.hero-content a {
     all: unset;
     border: 1px solid rgb(98, 98, 98);
     padding: 3px 12px;
@@ -313,7 +313,7 @@ footer i{
 @media screen and (max-width: 576px) {
 
     .hero .hero-content{
-        top: 8%;
+        top: 6%;
     }
 
     .hero-content div h1{
@@ -347,7 +347,11 @@ footer i{
 
 @media screen and (max-width: 375px) {
     .hero .hero-content{
-        top: 7%;
+        top: 6%;
+    }
+
+    .hero-content p{
+        font-size: 14px;
     }
 
     .hero-content div h1{
