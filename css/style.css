@@ -50,7 +50,6 @@ nav, #courses{
     margin-bottom: 4rem;
 }
 
-
 .navLinks {
     display: flex;
     align-items: center;
@@ -160,9 +159,36 @@ li a{
 
 .course{
     border: 1px solid #919191;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 10px;
 }
+
+.course h3{
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+}
+
+.cardBody {
+    padding: 20px;
+}
+
+.priceTag{
+    display: flex;
+    align-items: center;
+    color: #1E3050;
+}
+
+.priceTag i{
+    font-weight: bold;
+}
+
+.priceTag h2{
+    font-size: 32px;
+}
+
 
 .course button{
     all: unset;
@@ -185,12 +211,13 @@ li a{
 .courseBenefits ul{
     display: grid;
     gap: 5px;
+    margin-top: 10px;
 }
 
 .courseBenefits ul li{
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 7px;
 }
 
 .courseBenefits ul li i{
