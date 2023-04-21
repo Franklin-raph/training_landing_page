@@ -257,8 +257,14 @@ footer ul{
     gap: 5px;
 }
 
+.footer_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 footer i{
-    margin: 0 10px;
     padding: 5px;
     border: 1px solid #333;
 }
@@ -329,6 +335,14 @@ footer i{
     .coursesBoxes{
         grid-template-columns: 1fr;
     }
+
+    footer div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -343,5 +357,9 @@ footer i{
     #features{
         width: 80%;
         margin-top: -105px;
+    }
+
+    #courses{
+        padding: 16px 30px;
     }
 }
