@@ -44,10 +44,13 @@ img {
     transform: translate(-50%, -50%);
 }
 
-nav, #courses{
-    /* background-color: #2A454E; */
+nav, #courses, #studentsProject{
     padding: 16px 60px;
     margin-bottom: 4rem;
+}
+
+#courses h1, #studentsProject h1{
+    color: #202020;
 }
 
 .navLinks {
@@ -144,10 +147,6 @@ li a{
     background-color: #fff;
     color: #4C00A4;
     margin-right: 10px;
-}
-
-#courses h1{
-    text-align: center;
 }
 
 .coursesBoxes{
@@ -271,6 +270,22 @@ footer i{
 
 .fa-whatsapp{
     font-size: 18px;
+}
+
+.slide{
+    margin: 0 1rem;
+}
+
+.slide img{
+    border-radius: 10px;
+}
+
+#studentsProject h1{
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #2a2a2a;
+    color: #4C00A4;
+    display: inline-block;
+    margin-left: 1rem;
 }
 
 @media screen and (max-width:992px) {
